@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sorry Animation</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .background-image {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        
+        .sorry-container {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: flex-start;
+        }
+        
+        .sorry {
+            font-size: 48px;
+            color: #000000;
+            background-color: #ff0000;
+            padding: 20px;
+            border-radius: 10px;
+            animation: fadeInOut 2s infinite;
+        }
+        
+        @keyframes fadeInOut {
+            0%,
+            100% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .sorry-container {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-image" style="background-image: url('wp7368362.jpg');"></div>
+    <div class="sorry-container">
+        <!-- 40 "Sorry" messages -->
+        <div class="sorry">Sorry</div>
+        <!-- Add 30 more "Sorry" messages here -->
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <div class="sorry">Sorry</div>
+        <br>
+        <form class="email-form" action="mailto:tripureshtripathi355@gmail.com" method="post" enctype="text/plain">
+            <textarea class="message-input" name="message" placeholder="Enter your message" required rows="5"></textarea>
+            <button class="submit-button" type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+
+</html>
